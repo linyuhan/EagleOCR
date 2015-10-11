@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="row">
+    <div class="container">
+        
+        <div class="col-sm-12">
+            <input type="file" name="Foto" value=" " id="image" />
+            <button class="btn btn-primary" onclick="sendImage()">Enviar</button>
+        </div>
+
+
+        <div class="col-sm-12">
+            <img src="" alt="" id="result" class="image"/>
+        </div>
+        
+        <div class="col-sm-12">
+            <button class="btn btn-default" onclick="grayScale()">Escala Cinza</button>
+        </div>
+        
+
+    </div>
+
+</div>
+
+<script>
+    function sendImage() {
+        var data = new FormData();
+        var files = $("#image").get(0).files;
+        if (files.length > 0) {
+            data.append("HelpSectionImages", files[0]);
+        }
+        $.ajax({
+            url: "/ImgProcess/SaveImage",
+            type: "POST",
+            processData: false,
+            contentType: false,
+            data: data,
+            success: function (response) {
+                document.getElementById("result").src = response;
+
+            },
+            error: function (er) {
+                alert(er);
+            }
+
+        });
+    }
+
+    function grayScale() {
+        var data = new FormData();
+        var files = $("#image").get(0).files;
+        if (files.length > 0) {
+            data.append("HelpSectionImages", files[0]);
+        }
+        $.ajax({
+            url: "/ImgProcess/GrayScale",
+            type: "POST",
+            processData: false,
+            contentType: false,
+            data: data,
+            success: function (response) {
+                document.getElementById("result").src = response;
+
+            },
+            error: function (er) {
+                alert(er);
+            }
+
+        });
+    }
+</script>

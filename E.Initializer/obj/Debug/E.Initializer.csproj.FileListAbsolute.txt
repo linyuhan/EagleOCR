@@ -1,0 +1,17 @@
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\E.Initializer.dll
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\E.Initializer.pdb
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\E.AppServices.dll
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\E.AppServices.Interface.dll
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\StructureMap.dll
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\StructureMap.Net4.dll
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\StructureMap.Web.dll
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\E.AppServices.Interface.pdb
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\E.AppServices.pdb
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\StructureMap.pdb
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\StructureMap.xml
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\StructureMap.Net4.pdb
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\StructureMap.Web.pdb
+D:\Lin\Git\EagleOCR\E.Initializer\bin\Debug\StructureMap.Web.xml
+D:\Lin\Git\EagleOCR\E.Initializer\obj\Debug\E.Initializer.csprojResolveAssemblyReference.cache
+D:\Lin\Git\EagleOCR\E.Initializer\obj\Debug\E.Initializer.dll
+D:\Lin\Git\EagleOCR\E.Initializer\obj\Debug\E.Initializer.pdb

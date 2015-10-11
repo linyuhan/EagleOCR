@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EagleOCR", "EagleOCR\EagleOCR.csproj", "{C68767BD-101D-4CF4-A01C-E901C013D3AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42963A42-AFB4-45CE-B850-533523570CB2} = {42963A42-AFB4-45CE-B850-533523570CB2}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5642BFF9-E48C-47A8-8E0B-B646C1654871}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exhibition", "Exhibition", "{4B3D440D-FAB8-4BDD-A821-0058E9362A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppServices", "AppServices", "{E397B364-B018-4820-9420-2BB1815B8FC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainServices", "DomainServices", "{48B51A88-B215-42B4-B585-7EB0EABC4FF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.AppServices.Interface", "E.AppServices.Interface\E.AppServices.Interface.csproj", "{A12A18BB-B4C6-4364-ACB9-F711A762179C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.AppServices", "E.AppServices\E.AppServices.csproj", "{18715D06-E51E-437E-8548-26038CF459CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crosscuting", "Crosscuting", "{E6439EAD-DE23-4F10-9063-0296FDF11393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.Initializer", "E.Initializer\E.Initializer.csproj", "{42963A42-AFB4-45CE-B850-533523570CB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C68767BD-101D-4CF4-A01C-E901C013D3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68767BD-101D-4CF4-A01C-E901C013D3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68767BD-101D-4CF4-A01C-E901C013D3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68767BD-101D-4CF4-A01C-E901C013D3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12A18BB-B4C6-4364-ACB9-F711A762179C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12A18BB-B4C6-4364-ACB9-F711A762179C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12A18BB-B4C6-4364-ACB9-F711A762179C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12A18BB-B4C6-4364-ACB9-F711A762179C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18715D06-E51E-437E-8548-26038CF459CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18715D06-E51E-437E-8548-26038CF459CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18715D06-E51E-437E-8548-26038CF459CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18715D06-E51E-437E-8548-26038CF459CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42963A42-AFB4-45CE-B850-533523570CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42963A42-AFB4-45CE-B850-533523570CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42963A42-AFB4-45CE-B850-533523570CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42963A42-AFB4-45CE-B850-533523570CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C68767BD-101D-4CF4-A01C-E901C013D3AA} = {4B3D440D-FAB8-4BDD-A821-0058E9362A27}
+		{E397B364-B018-4820-9420-2BB1815B8FC2} = {5642BFF9-E48C-47A8-8E0B-B646C1654871}
+		{48B51A88-B215-42B4-B585-7EB0EABC4FF2} = {5642BFF9-E48C-47A8-8E0B-B646C1654871}
+		{A12A18BB-B4C6-4364-ACB9-F711A762179C} = {E397B364-B018-4820-9420-2BB1815B8FC2}
+		{18715D06-E51E-437E-8548-26038CF459CC} = {E397B364-B018-4820-9420-2BB1815B8FC2}
+		{42963A42-AFB4-45CE-B850-533523570CB2} = {E6439EAD-DE23-4F10-9063-0296FDF11393}
+	EndGlobalSection
+EndGlobal

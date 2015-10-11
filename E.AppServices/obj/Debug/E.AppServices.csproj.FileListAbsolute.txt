@@ -1,0 +1,17 @@
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\E.AppServices.dll
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\E.AppServices.pdb
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\E.AppServices.Interface.dll
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\Spire.License.dll
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\Spire.Pdf.dll
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\StructureMap.dll
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\StructureMap.Net4.dll
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\Microsoft.mshtml.dll
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\E.AppServices.Interface.pdb
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\Spire.License.xml
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\Spire.Pdf.xml
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\StructureMap.pdb
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\StructureMap.xml
+D:\Lin\Git\EagleOCR\E.AppServices\bin\Debug\StructureMap.Net4.pdb
+D:\Lin\Git\EagleOCR\E.AppServices\obj\Debug\E.AppServices.csprojResolveAssemblyReference.cache
+D:\Lin\Git\EagleOCR\E.AppServices\obj\Debug\E.AppServices.dll
+D:\Lin\Git\EagleOCR\E.AppServices\obj\Debug\E.AppServices.pdb
